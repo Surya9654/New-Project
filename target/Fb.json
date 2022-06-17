@@ -1,0 +1,284 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-16T06:19:27.436Z",
+        "line": 36,
+        "name": "Launch browser",
+        "description": "",
+        "id": "test-godaddy;launch-browser;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5031014900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Open this URL - \"https://www.godaddy.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.godaddy.com/\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Godaddyhooks.open_this_URL(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 341676000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Maximize or set size of browser window.",
+            "match": {
+              "location": "Godaddyhooks.maximize_or_set_size_of_browser_window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 660709700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Get Title of page and validate it with expected value.",
+            "match": {
+              "location": "Godaddysteps.get_Title_of_page_and_validate_it_with_expected_value()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 331121200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Get URL of current page and validate it with expected value.",
+            "match": {
+              "location": "Godaddysteps.get_URL_of_current_page_and_validate_it_with_expected_value()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143093500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Get Page source of web page.",
+            "match": {
+              "location": "Godaddysteps.get_Page_source_of_web_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8247000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Validate that page title is present in page source.",
+            "match": {
+              "location": "Godaddysteps.validate_that_page_title_is_present_in_page_source()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 498100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "check more outcomes",
+            "match": {
+              "location": "Godaddysteps.check_more_outcomes()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@godaddy"
+          }
+        ]
+      }
+    ],
+    "name": "Test GoDaddy",
+    "description": "  I have to test Godaddy site",
+    "id": "test-godaddy",
+    "keyword": "Feature",
+    "uri": "file:Features/Godaddy1.feature",
+    "tags": [
+      {
+        "name": "@godaddy",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-16T06:19:34.046Z",
+        "line": 22,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "check-features-2;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18615000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Maximize or set size of browser window.",
+            "match": {
+              "location": "Godaddyhooks.maximize_or_set_size_of_browser_window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25137100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "setimplicit wait",
+            "match": {
+              "location": "Godaddysteps1.setimplicit_wait()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1256900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Click on the first menu link, which is Domains. It will open up a sub-menu, click on the Domain Name Search link from the sub-menu.",
+            "match": {
+              "location": "Godaddysteps1.click_on_the_first_menu_link_which_is_Domains_It_will_open_up_a_sub_menu_click_on_the_Domain_Name_Search_link_from_the_sub_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 614352000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Get the value of title of Domain Name Search page using Selenium Webdrivers command in your script and print it.",
+            "match": {
+              "location": "Godaddysteps1.get_the_value_of_title_of_Domain_Name_Search_page_using_Selenium_Webdrivers_command_in_your_script_and_print_it()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1334600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Well match value fetched with expected value, if its matched then proceed to next step either failed the test case.",
+            "match": {
+              "location": "Godaddysteps1.well_match_value_fetched_with_expected_value_if_its_matched_then_proceed_to_next_step_either_failed_the_test_case()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2012469200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Verify that search box is present on the page and its enabled by using selenium commands.",
+            "match": {
+              "location": "Godaddysteps1.verify_that_search_box_is_present_on_the_page_and_its_enabled_by_using_selenium_commands()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98620700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Verify that Buy It button is available along with search box.",
+            "match": {
+              "location": "Godaddysteps1.verify_that_Buy_It_button_is_available_along_with_search_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 771700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Enter some test value in the search box, like mydomain and click on Buy It button.",
+            "match": {
+              "location": "Godaddysteps1.enter_some_test_value_in_the_search_box_like_mydomain_and_click_on_Buy_It_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 850500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "If domain is available then verify that Add to Cart button is present alongside domain name.",
+            "match": {
+              "location": "Godaddysteps1.if_domain_is_available_then_verify_that_Add_to_Cart_button_is_present_alongside_domain_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1082200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Verify that price of the domain is also displaying alongside domain name.",
+            "match": {
+              "location": "Godaddysteps1.verify_that_price_of_the_domain_is_also_displaying_alongside_domain_name()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@godaddy"
+          }
+        ]
+      }
+    ],
+    "name": "Check features 2",
+    "description": "  I want to use this template for my feature file",
+    "id": "check-features-2",
+    "keyword": "Feature",
+    "uri": "file:Features/Godaddy2.feature",
+    "tags": [
+      {
+        "name": "@godaddy",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

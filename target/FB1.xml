@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="9.395185">
+<testcase classname="Test GoDaddy" name="Launch browser" time="6.607837">
+<system-out><![CDATA[Given Open this URL - "https://www.godaddy.com/"............................passed
+And Maximize or set size of browser window..................................passed
+When Get Title of page and validate it with expected value..................passed
+And Get URL of current page and validate it with expected value.............passed
+And Get Page source of web page.............................................passed
+And Validate that page title is present in page source......................passed
+And check more outcomes.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check features 2" name="Title of your scenario" time="2.787348">
+<system-out><![CDATA[And Maximize or set size of browser window..................................passed
+And setimplicit wait........................................................passed
+And Click on the first menu link, which is Domains. It will open up a sub-menu, click on the Domain Name Search link from the sub-menu..passed
+And Get the value of title of Domain Name Search page using Selenium Webdrivers command in your script and print it..passed
+And Well match value fetched with expected value, if its matched then proceed to next step either failed the test case..passed
+And Verify that search box is present on the page and its enabled by using selenium commands..passed
+And Verify that Buy It button is available along with search box............passed
+And Enter some test value in the search box, like mydomain and click on Buy It button..passed
+And If domain is available then verify that Add to Cart button is present alongside domain name..passed
+Then Verify that price of the domain is also displaying alongside domain name..passed
+]]></system-out>
+</testcase>
+</testsuite>
